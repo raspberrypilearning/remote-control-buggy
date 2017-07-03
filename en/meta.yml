@@ -1,0 +1,13 @@
+title: remote-control-buggy
+hero_image: images/banner.png
+description: remote-control-buggy description
+original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+theme: cc-prototype
+duration: 1 # 1, 2 or 3
+listed: false
+ingredient: false
+copyedit: false
+interests: "games, photography, physical computing, space"
+technologies: "electronics, physical computing, python, scratch"
+steps:
+  - title: Step one
