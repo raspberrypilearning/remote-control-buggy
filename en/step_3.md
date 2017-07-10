@@ -61,6 +61,6 @@ bd.when_pressed = move
 bd.when_moved = move
 ```
 ---/hint--- ---hint---
-Here's a video raking you through the code writing process
+Here's a video taking you through the code writing process
 
 ---/hint--- ---/hints---
