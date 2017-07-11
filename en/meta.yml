@@ -2,11 +2,13 @@ title: Remote control your buggy
 hero_image: images/banner.png
 description: Create a remote control for you Raspberry Pi buggy
 original_url:
+theme: blue
 theme: cc-prototype
 duration: 3
 listed: false
 ingredient: false
 copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 interests: "robots"
 technologies: "electronics, physical computing, python"
 steps:
