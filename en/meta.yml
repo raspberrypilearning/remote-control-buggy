@@ -3,7 +3,6 @@ hero_image: images/banner.png
 description: Create a remote control for you Raspberry Pi buggy
 original_url:
 theme: blue
-theme: cc-prototype
 duration: 3
 listed: false
 ingredient: false
