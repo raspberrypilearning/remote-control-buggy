@@ -19,13 +19,6 @@ To control the buggy, you can use a feature in the `gpiozero` module called **Re
 - Next type `hostname -I` to reveal the Raspberry Pi's IP Address. Make a note of this as you will need it in a bit.
 
 - You can now leave the buggy, as all the code you will be writing will be on the AIY Voice Kit.
-
-- Here's what you will need to do:
-    1. On the Voice Kit Raspberry Pi, in the `src` directory find the file called `action.py`
-	1. Edit this file near the top, to import the neccessary components of `gpiozero`, so that you can use remote pins and the Robot class.
-	1. Create a new `voice_command` that will trigger the robot action.
-	1. Create a new `action`, that will move the buggy when it is issued with commands.
-
 	
 ### Import the modules and set up remote pins
 
