@@ -22,7 +22,7 @@ Have a look at the section below to learn the basics of using the BlueDot app wi
 
 To remote control your buggy, here's what you will need to do:
 
-- Import the `bluedot` and `gpiozero` modules
+- Import the `bluedot` and `gpiozero` modules, and create `Robot` and `BlueDot` objects.
   ```python
   from bluedot import BlueDot
   from gpiozero import Robot
@@ -31,10 +31,10 @@ To remote control your buggy, here's what you will need to do:
   robot = Robot(left=(7, 8), right=(9, 10)) ##this may be different depending on your wiring
   ```
 - Create a function called `move` that has `pos` as a parameter.
-- The function should check if `pos.top` is True. If it is then `robot.forward()` can be used to move the robot forward.
-- The function should also check `pos.bottom`, `pos.right` and pos.left`, and move the `robot` accordingly.
+- The function should check if `pos.top` is `True`. If it is then `robot.forward()` can be used to move the robot forward.
+- The function should also check `pos.bottom`, `pos.right` and `pos.left`, and move the `robot` accordingly.
 - Create a function called `stop`, that just stops the robot.
-- When the bluedot is pressed or the finger moves, the `move` function should BA called.
+- When the bluedot is pressed or the finger moves, the `move` function should be called.
 - When the bluedot is released, the `stop` function should be called.
 
 ---hints--- ---hint---

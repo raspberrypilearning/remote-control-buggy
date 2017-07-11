@@ -18,4 +18,4 @@ This resource covers elements from the following strands of the [Raspberry Pi Di
 
 - [Combine programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/builder/)
 - [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/)
-- [https://curriculum.raspberrypi.org/manufacture/creator/](https://curriculum.raspberrypi.org/manufacture/creator/)
+- [Use basic materials and tools to create project prototypes/](https://curriculum.raspberrypi.org/manufacture/creator/)

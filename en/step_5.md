@@ -54,10 +54,10 @@ For this stage, as well as your buggy, you will need a second Raspberry Pi and t
 Use the `when_pressed` and `when_released` methods of the `Button` class, to drive the robot and stop it.
 --- /hint --- --- hint ---
 Here's some example code that will drive the robot forwards and stop it.
-	```python
-	forward.when_pressed = robot.forward
-	forward.when_released = robot.stop
-	```
+```python
+forward.when_pressed = robot.forward
+forward.when_released = robot.stop
+```
 --- /hint --- --- hint ---
 Here's a video to help you understand how to program the controller.
 <video width="560" height="315" controls>
