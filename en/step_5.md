@@ -1,6 +1,13 @@
 ## A home-brew game controller.
 
-You can make your own remote control if you have another Raspberry Pi that you can use.
+### Requirements
+For this stage, as well as your buggy, you will need a second Raspberry Pi and the following hardware:
+- 1 x solderless breadboard
+- 4 x tactile buttons
+- 5 x male-to-female jumper leads
+- 4 x male-to-male jumper leads 
+
+### Instructions
 
 - The first stage is to wire up four buttons to your spare Raspberry Pi. Have a look at the section below if you haven't used buttons with a Raspberry Pi before.
 

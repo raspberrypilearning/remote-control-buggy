@@ -1,5 +1,9 @@
 ## An Android remote control
 
+### Requirements
+For this stage, as well as your buggy, you will need an Android phone or tablet.
+
+### Instructions
 You can use the Android App, BlueDot, as a remote control for your robot buggy.
 
 You'll need to do a little setup to begin with:
@@ -38,11 +42,11 @@ Here's how you might start off your `move` function. Try and complete the rest o
 
 ```python
 def move(pos):
-    if pos.top:
-	    robot.forward()
+	if pos.top:
+		robot.forward()
 ```
 ---/hint--- ---hint---
-Here's some of the code, with some key lines missing. Can you complete the code?
+Here's some of the code, with some key lines missing. Can you complete it?
 ```python
 def move(pos):
     if pos.top:
@@ -50,15 +54,19 @@ def move(pos):
     elif pos.bottom:
         robot.backward()
     elif pos.right:
+		## turn the robot right
+	## What if the blude dot is touched on the left
    
    
    
 
 def stop():
+	## stop the robot
    
 
 bd.when_pressed = move
 bd.when_moved = move
+## What if the user takes her finger off the blue dot?
 ```
 ---/hint--- ---hint---
 Here's a video taking you through the code writing process
