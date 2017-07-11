@@ -130,5 +130,10 @@ To control the buggy, you can use a feature in the `gpiozero` module called **Re
   ```
 --- /hint --- --- hint ---
 - Here's a video detailing how to code the Voice Kit, along with explanatory commentary
+<video width="560" height="315" controls>
+<source src="images/aiy-remote.webm" type="video/webm">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
+
 --- /hint --- --- /hints ---
 

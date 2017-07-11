@@ -53,4 +53,9 @@ Here's some example code that will drive the robot forwards and stop it.
 	```
 --- /hint --- --- hint ---
 Here's a video to help you understand how to program the controller.
+<video width="560" height="315" controls>
+<source src="images/home-brew-remote.webm" type="video/webm">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
+
 --- /hint --- --- /hints ---

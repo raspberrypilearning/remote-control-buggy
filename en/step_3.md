@@ -62,5 +62,9 @@ bd.when_moved = move
 ```
 ---/hint--- ---hint---
 Here's a video taking you through the code writing process
+<video width="560" height="315" controls>
+<source src="images/blue-dot-remote.webm" type="video/webm">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
 
 ---/hint--- ---/hints---
