@@ -9,3 +9,13 @@ With your buggy built it is time to add in mechanisms to allow you to remote con
 3. A Google AIY Voice Kit
 
 ## What you will learn
+
+- How to receive input from an Android device on your Raspberry Pi.
+- How to use remote pins to control a robot buggy.
+- How to process data from an AIY Voice Kit, to control a robot buggy.
+
+This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://curriculum.raspberrypi.org/):
+
+- [Combine programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/builder/)
+- [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/)
+- [https://curriculum.raspberrypi.org/manufacture/creator/](https://curriculum.raspberrypi.org/manufacture/creator/)
