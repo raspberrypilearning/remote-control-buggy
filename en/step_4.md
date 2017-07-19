@@ -10,7 +10,7 @@ To control the buggy, you can use a feature in the `gpiozero` module called **Re
 
 [[[rpi-python-remote-pins]]]
 
-- Begin by connecting up your buggy and then opening a terminal on its Raspberry Pi. Once there, you can type the following so that the **pigpio daemon** will run on boot:
+- Begin by connecting up your buggy and then opening a terminal window on its Raspberry Pi. Once there, you can type the following so that the **pigpio daemon** will run on boot:
 
 	```bash
 	sudo systemctl enable pigpiod
