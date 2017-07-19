@@ -17,12 +17,12 @@ For this stage, you will need a second Raspberry Pi and the following hardware a
 
 	![wiring](images/button_controller.png)
 
-- On the Raspberry Pi that is attached to the buggy, you will need to start the **pigpio daemon** if you haven't already done so. To do this, open up a terminal and type the following:
+- On the Raspberry Pi that is attached to the buggy, you will need to start the **pigpio daemon** if you haven't already done so. To do this, open up a terminal window and type the following:
 
 	```bash
 	sudo systemctl enable pigpiod
 	```
-- Then you can find the Raspberry Pi's IP address by typing the following:
+- Then you can find the Raspberry Pi's IP address using this line of code:
 
 	```bash
 	hostname -I
