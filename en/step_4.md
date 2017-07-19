@@ -1,4 +1,4 @@
-## Google Voice Kit Remote
+## Google Voice Kit remote
 
 ### Requirements
 For this part of the project, you will need a Google AIY Voice Kit and a second Raspberry Pi as well as your buggy.
