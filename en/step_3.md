@@ -8,7 +8,7 @@ You can use the Android app Blue Dot as a remote control for your robot buggy.
 
 You'll need to do a little setting up to begin with:
 
-- Install the [Blue Dot Android app from here](https://play.google.com/store/apps/details?id=com.stuffaboutcode.bluedot&hl=en_GB)
+- Download the [Blue Dot Android app from here](https://play.google.com/store/apps/details?id=com.stuffaboutcode.bluedot&hl=en_GB) and install it.
 - On your Raspberry Pi, open a Terminal and install the `dbus` and the `bluedot` Python modules.
 
 	```bash
