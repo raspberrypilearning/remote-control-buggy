@@ -46,7 +46,7 @@ def move(pos):
 		robot.forward()
 ```
 ---/hint--- ---hint---
-Here's some of the code, with a few key lines missing. Can you complete it?
+Here's the code with a few key lines missing. Can you complete it?
 ```python
 def move(pos):
     if pos.top:
