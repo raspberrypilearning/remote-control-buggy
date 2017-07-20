@@ -2,9 +2,9 @@
 
 This project assumes that you've already built a motorised buggy controlled by a Raspberry Pi, such as the one in the [Build a buggy resource](../build-a-buggy).
 
-With your buggy built, it is now time to add in mechanisms to allow you to remotely control the buggy using one of the following methods:
+With your buggy built, it is now time to add in mechanisms to allow you to remotely control the buggy using one of the following devices:
 
-1. An Android device
+1. An Android phone (or tablet)
 2. A Wiimote
 3. A Google AIY Voice Kit
 
