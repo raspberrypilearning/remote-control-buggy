@@ -13,7 +13,7 @@ For this stage, you will need a second Raspberry Pi and the following hardware a
 
 [[[rpi-gpio-wiring-a-button]]]
 
-- Here's one way that you could wire up your buttons, including a common ground pin to avoid using too many wires.
+- Here's one way that you could wire up your buttons, including a common ground rail to avoid using too many wires.
 
 	![wiring](images/button_controller.png)
 
