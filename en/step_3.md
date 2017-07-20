@@ -22,6 +22,7 @@ Have a look at the section below to learn the basics of using the Blue Dot app w
 
 To remotely control your buggy, here's what you will need to do:
 
+- Open up Python 3 IDLE, and create a new file.
 - Import the `bluedot` and `gpiozero` modules, and create `Robot` and `BlueDot` objects.
   ```python
   from bluedot import BlueDot
