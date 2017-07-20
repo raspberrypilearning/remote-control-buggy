@@ -41,7 +41,7 @@ To control the buggy, you can use a feature in the `gpiozero` module called **Re
 	```
 ### Creating a voice_command
 
-- Scroll to near the bottom of the file and find the section with the following comments:
+- Scroll to near the bottom of the `action.py` file and find the section with the following comments:
 
 	```python
 	# =========================================
