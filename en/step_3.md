@@ -42,8 +42,8 @@ Here's how you might start off your `move` function. Try and complete the rest o
 
 ```python
 def move(pos):
-	if pos.top:
-		robot.forward()
+    if pos.top:
+        robot.forward()
 ```
 ---/hint--- ---hint---
 Here's the code with a few key lines missing. Can you complete it?
