@@ -1,4 +1,4 @@
-## A homebrew game controller
+## A home-brew game controller
 
 ### Requirements
 For this stage, you will need a second Raspberry Pi and the following hardware as well as your buggy.
