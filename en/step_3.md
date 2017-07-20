@@ -4,7 +4,7 @@
 For this stage, you will need an Android phone or tablet as well as your buggy.
 
 ### Instructions
-You can use the Android app Blue Dot as a remote control for your robot buggy.
+You can use the Android app **Blue Dot** as a remote control for your robot buggy.
 
 You'll need to do a little setting up to begin with:
 
