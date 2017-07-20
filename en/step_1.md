@@ -5,8 +5,8 @@ This project assumes that you've already built a motorised buggy controlled by a
 With your buggy built, it is now time to add in mechanisms to allow you to remotely control the buggy using one of the following devices:
 
 1. An Android phone (or tablet)
-2. A Wiimote
-3. A Google AIY Voice Kit
+2. A Google AIY Voice Kit
+3. A home-brew remote control
 
 ## What you will learn
 
