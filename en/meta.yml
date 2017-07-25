@@ -6,7 +6,7 @@ theme: blue
 duration: 3
 listed: false
 ingredient: false
-copyedit: false
+copyedit: true
 curriculum: builder, design-0, programming-2, phys-comp-2, manufacture-1, community-0
 interests: "robots"
 technologies: "electronics, physical computing, python"
