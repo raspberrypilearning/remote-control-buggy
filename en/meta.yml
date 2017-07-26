@@ -1,0 +1,18 @@
+title: Remotely control your buggy
+hero_image: images/banner.png
+description: Create a remote control for you Raspberry Pi buggy
+original_url:
+theme: red
+duration: 3
+listed: true
+ingredient: false
+copyedit: true
+curriculum: builder, design-0, programming-2, phys-comp-2, manufacture-1, community-0
+interests: "robots"
+technologies: "electronics, physical computing, python"
+steps:
+  - title: Introduction
+  - title: What you will need
+  - title: An Android remote control
+  - title: An AIY Voice Kit remote control
+  - title: A home-brew remote control
