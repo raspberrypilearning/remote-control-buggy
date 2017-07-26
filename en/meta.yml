@@ -4,7 +4,7 @@ description: Create a remote control for you Raspberry Pi buggy
 original_url:
 theme: red
 duration: 3
-listed: false
+listed: true
 ingredient: false
 copyedit: true
 curriculum: builder, design-0, programming-2, phys-comp-2, manufacture-1, community-0
