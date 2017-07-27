@@ -4,7 +4,7 @@
 For this part of the project, you will need a Google AIY Voice Kit and a second Raspberry Pi as well as your buggy.
 
 ### Instructions
-You can use a second Raspberry Pi running the Google AIY Voice Kit software to remotely control your Raspberry Pi buggy. This section assumes you have both a [built buggy](../build-a-buggy), and that you have an assembled [AIY Voice Kit](../rpi-python-google-aiy).
+You can use a second Raspberry Pi running the Google AIY Voice Kit software to remotely control your Raspberry Pi buggy. This section assumes you have both a [built buggy](../projects/build-a-buggy), and that you have an assembled [AIY Voice Kit](../projects/rpi-python-google-aiy).
 
 To control the buggy, you can use a feature in the `gpiozero` module called **Remote Pins**. Have a look at the section below to learn more about how to remotely use GPIO pins.
 
@@ -83,7 +83,7 @@ To control the buggy, you can use a feature in the `gpiozero` module called **Re
 		def run(self, voice_command):
 	```
 
-- If you followed the [AIY Voice Kit resource](../rpi-python-google-aiy), then this should be fairly familiar to you. Within the `run` method you need to do the following:
+- If you followed the [AIY Voice Kit resource](../projects/rpi-python-google-aiy), then this should be fairly familiar to you. Within the `run` method you need to do the following:
   1. Convert the `voice_command` to lower case
   1. If the word `forward` is in the voice command, then send the robot forward
   1. If the word `backward` is in the voice command, then send the robot backwards
@@ -131,4 +131,3 @@ If your browser does not support WebM video, try Firefox or Chrome.
 </video>
 
 --- /hint --- --- /hints ---
-
