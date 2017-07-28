@@ -37,7 +37,7 @@ To control the buggy, you can use a feature in the `gpiozero` module called **Re
 - Then you can set up your robot with these pins.
 
 	```python
-	robot = Robot(left=(factory.pin(7), factory.pin(8)), right=(factory.pin(9), factory.pin(10)))
+	robot = Robot(left=(7, 8), right=(9, 10), pin_factory=factory))
 	```
 ### Creating a voice_command
 
