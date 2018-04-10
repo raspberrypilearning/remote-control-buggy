@@ -16,7 +16,6 @@ Download the [Blue Dot Android app from here](https://play.google.com/store/apps
 On your Raspberry Pi, open a terminal window and install the `dbus` and `bluedot` Python modules.
 
 ```bash
-sudo apt-get install python3-dbus
 sudo pip3 install bluedot
 ```
 --- /task ---

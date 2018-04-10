@@ -10,85 +10,98 @@ To control the buggy, you can use a feature in the `gpiozero` module called **Re
 
 [[[rpi-python-remote-pins]]]
 
-- Begin by connecting up your buggy and then opening a terminal window on its Raspberry Pi. Once there, you can type the following so that the **pigpio daemon** will run on boot:
+--- task ---
+Connect up your buggy and then opening a terminal window on its Raspberry Pi. Once there, you can type the following so that the **pigpio daemon** will run on boot:
 
-	```bash
-	sudo systemctl enable pigpiod
-	```
-	
-- Next, type `hostname -I` to reveal the Raspberry Pi's IP address. Make a note of this as you will need it in a bit.
+```bash
+sudo systemctl enable pigpiod
+```
+--- /task ---
 
-- You can now leave the buggy, as all the other code you will be writing will be for the AIY Voice Kit.
+--- task ---
+Next, type `hostname -I` to reveal the Raspberry Pi's IP address. Make a note of this as you will need it in a bit.
+--- /task ---	
+
+
+You can now leave the buggy, as all the other code you will be writing will be for the AIY Voice Kit.
 	
 ### Import the modules and set up remotely controlled pins
 
-- Open the `action.py` file and, near the top, add code to import the neccessary modules to remotely control the robot.
+--- task ---
+Open the `action.py` file and, near the top, add code to import the neccessary modules to remotely control the robot.
 
-	```python
-	from gpiozero import Robot
-	from gpiozero.pins.pigpio import PiGPIOFactory
-	```
+```python
+from gpiozero import Robot
+from gpiozero.pins.pigpio import PiGPIOFactory
+```
+
 - Now you can set up the remote pins using the IP address of your buggy.
 
-	```python
-	factory = PiGPIOFactory(host="192.168.1.79")
+```python
+factory = PiGPIOFactory(host="192.168.1.79")
 
-	```
+```
+
 - Then you can set up your robot with these pins.
 
-	```python
-	robot = Robot(left=(factory.pin(7), factory.pin(8)), right=(factory.pin(9), factory.pin(10)))
-	```
+```python
+robot = Robot(left=(factory.pin(7), factory.pin(8)), right=(factory.pin(9), factory.pin(10)))
+```
+--- /task ---
+
 ### Creating a voice_command
 
-- Scroll to near the bottom of the `action.py` file and find the section with the following comments:
+--- task ---
+Scroll to near the bottom of the `action.py` file and find the section with the following comments:
 
-	```python
-	# =========================================
-	# Makers! Add your own voice commands here.
-	# =========================================
-	```
-- Here is where you can write you custom command that will activate your robot. Some experimentation might be required. Using the command **robot** may not be a good idea, as the Google API could struggle to recognise the word. Play around with different command words to see which one works best.
+```python
+# =========================================
+# Makers! Add your own voice commands here.
+# =========================================
+```
+Here is where you can write you custom command that will activate your robot. Some experimentation might be required. Using the command **robot** may not be a good idea, as the Google API could struggle to recognise the word. Play around with different command words to see which one works best.
 
-	```python
-	actor.add_keyword("red leader", ControlRobot(say))
-	```
+```python
+actor.add_keyword("red leader", ControlRobot(say))
+```
+--- /task ---
 
 ### Create you custom action
 
+--- task ---
 - Scroll back up in the file until you find the section with the following comments:
 
-	```python
-	# =========================================
-	# Makers! Implement your own actions here.
-	# ========================================
-	```
+```python
+# =========================================
+# Makers! Implement your own actions here.
+# ========================================
+```
 
-- You're going to create a new `class` here called `ControlRobot`. The algorithm works as follows:
 - Start by creating the class and initialising it with the `say` function.
 
-	```python
-	class ControlRobot():
-		def __init__(self, say):
-			  self.say = say
-	```
+```python
+class ControlRobot():
+	def __init__(self, say):
+		  self.say = say
+```
 
 - Now you need a `run` method. This is where the real work is done.
 
-	```python
-	class ControlRobot():
-		def __init__(self, say):
-			  self.say = say
+```python
+class ControlRobot():
+	def __init__(self, say):
+		  self.say = say
 
-		def run(self, voice_command):
-	```
+	def run(self, voice_command):
+```
+--- /task ---
 
-- If you followed the [AIY Voice Kit resource](../rpi-python-google-aiy), then this should be fairly familiar to you. Within the `run` method you need to do the following:
+If you followed the [AIY Voice Kit resource](../rpi-python-google-aiy), then this should be fairly familiar to you. Within the `run` method you need to do the following:
   1. Convert the `voice_command` to lower case
   1. If the word `forward` is in the voice command, then send the robot forward
   1. If the word `backward` is in the voice command, then send the robot backwards
   
-- You can continue this logic to finish the class. Have a look at the hints below if you need a little bit of help.
+You can continue this logic to finish the class. Have a look at the hints below if you need a little bit of help.
 
 --- hints --- --- hint ---
 - Here's how you could begin the `run` method:
