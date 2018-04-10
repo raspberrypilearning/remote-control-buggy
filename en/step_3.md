@@ -61,9 +61,9 @@ Create a function called `stop` which stops the robot.
 --- /task ---
 
 --- task ---
-When the blue dot is pressed or the finger moves, the `move` function should be called.
+- When the blue dot is pressed or the finger moves, the `move` function should be called.
 - When the blue dot is released, the `stop` function should be called.
---- /task ---- 
+--- /task ---
 
 ---hints--- ---hint---
 Here's how you might start off your `move` function. Try and complete the rest of it on your own.
