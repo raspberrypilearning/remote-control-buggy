@@ -2,10 +2,10 @@
 
 ### Requirements
 For this stage, you will need a second Raspberry Pi and the following hardware as well as your buggy.
-- 1 x solderless breadboard
-- 4 x tactile buttons
-- 5 x male-to-female jumper leads
-- 4 x male-to-male jumper leads 
+- 1 × solderless breadboard
+- 4 × tactile buttons
+- 5 × male-to-female jumper leads
+- 4 × male-to-male jumper leads 
 
 ### Instructions
 
@@ -14,7 +14,7 @@ For this stage, you will need a second Raspberry Pi and the following hardware a
 
 [[[rpi-gpio-wiring-a-button]]]
 
-- Here's one way that you could wire up your buttons, including a common ground rail to avoid using too many wires.
+- Here's one way that you could wire up your buttons, including a common ground rail to avoid using too many wires:
 
 	![wiring](images/button_controller.png)
 --- /task ---
@@ -36,7 +36,6 @@ hostname -I
 --- task ---
 Now you can begin to program the Raspberry Pi that is connected to the breadboard controller. Open up Python 3 IDLE.
 --- /task ---	
-
 
 If you haven't used remotely controlled GPIO pins, or programmed using buttons before, you might like to have a look at the sections below.
 
