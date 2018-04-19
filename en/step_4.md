@@ -1,17 +1,17 @@
-## Google Voice Kit remote
+## AIY Projects Voice Kit remote
 
 ### Requirements
-For this part of the project, you will need a Google AIY Voice Kit and a second Raspberry Pi as well as your buggy.
+For this part of the project, you will need a Google AIY Projects Voice Kit and a second Raspberry Pi as well as your buggy.
 
 ### Instructions
-You can use a second Raspberry Pi running the Google AIY Voice Kit software to remotely control your Raspberry Pi buggy. This section assumes you have both a [built buggy](../projects/build-a-buggy), and that you have an assembled [AIY Voice Kit](../projects/rpi-python-google-aiy).
+You can use a second Raspberry Pi running the Google AIY Projects Voice Kit software to remotely control your Raspberry Pi buggy. This section assumes you have both a [built buggy](../projects/build-a-buggy), and that you have an assembled [AIY Projects  Voice Kit](../projects/rpi-python-google-aiy).
 
-To control the buggy, you can use a feature in the `gpiozero` module called **Remote Pins**. Have a look at the section below to learn more about how to remotely use GPIO pins.
+To control the buggy, you can use a feature in the `gpiozero` module called **remote pins**. Have a look at the section below to learn more about how to remotely use GPIO pins.
 
 [[[rpi-python-remote-pins]]]
 
 --- task ---
-Connect up your buggy and then opening a terminal window on its Raspberry Pi. Once there, you can type the following so that the **pigpio daemon** will run on boot:
+Connect up your buggy and then open a terminal window on its Raspberry Pi. Once there, you can type the following so that the **pigpio daemon** will run on boot:
 
 ```bash
 sudo systemctl enable pigpiod
@@ -19,11 +19,10 @@ sudo systemctl enable pigpiod
 --- /task ---
 
 --- task ---
-Next, type `hostname -I` to reveal the Raspberry Pi's IP address. Make a note of this as you will need it in a bit.
+Next, type in `hostname -I` to show the Raspberry Pi's IP address. Make a note of it, as you will need it in a bit.
 --- /task ---	
 
-
-You can now leave the buggy, as all the other code you will be writing will be for the AIY Voice Kit.
+You can now leave the buggy, as all the other code you will be writing will be for the AIY kit.
 	
 ### Import the modules and set up remotely controlled pins
 
@@ -48,7 +47,7 @@ factory = PiGPIOFactory(host="192.168.1.79")
 robot = Robot(left=(7, 8), right=(9, 10), pin_factory=factory))
 ```
 --- task ---
-### Creating a voice_command
+### Creating a voice command
 
 --- task ---
 Scroll to near the bottom of the `action.py` file and find the section with the following comments:
@@ -58,7 +57,7 @@ Scroll to near the bottom of the `action.py` file and find the section with the 
 # Makers! Add your own voice commands here.
 # =========================================
 ```
-Here is where you can write you custom command that will activate your robot. Some experimentation might be required. Using the command **robot** may not be a good idea, as the Google API could struggle to recognise the word. Play around with different command words to see which one works best.
+Here is where you can write you custom command that will activate your robot. This might require some experimenting. Using the command 'robot' may not be a good idea, as the Google API might struggle to recognise the word. Play around with different command words to see which one works best.
 
 ```python
 actor.add_keyword("red leader", ControlRobot(say))
@@ -96,7 +95,7 @@ class ControlRobot():
 --- /task ---
 
 
-- If you followed the [AIY Voice Kit resource](../projects/rpi-python-google-aiy), then this should be fairly familiar to you. Within the `run` method you need to do the following:
+- If you followed our [AIY Projects Voice Kit resource](../projects/rpi-python-google-aiy), then this should be fairly familiar to you. Within the `run` method you need to do the following:
 
   1. Convert the `voice_command` to lower case
   1. If the word `forward` is in the voice command, then send the robot forward
