@@ -1,6 +1,6 @@
 ## Introduction
 
-This project assumes that you've already built a motorised buggy controlled by a Raspberry Pi, such as the one in the [Build a buggy resource](../projects/build-a-buggy).
+This project assumes that you've already built a motorised buggy controlled by a Raspberry Pi, such as the one in the [Build a buggy resource](https://projects.raspberrypi.org/en/projects/build-a-buggy).
 
 ![finished](images/finished.gif)
 
