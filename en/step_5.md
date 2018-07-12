@@ -17,7 +17,7 @@ The first stage is to wire up four buttons to your spare Raspberry Pi. Have a lo
 
 Here's one way that you could wire up your buttons, including a common ground rail to avoid using too many wires:
 
-	![wiring](images/button_controller.png)
+![wiring](images/button_controller.png)
 
 --- /task ---
 
@@ -72,6 +72,7 @@ backward = Button(17)
 right = Button(13)
 left = Button(21)
 ```
+
 --- /task ---
 
 For the rest of your project you need to add code to your script to drive the robot in the right direction when a specific button is pushed, and stop the robot when the button is released. Have a look at the hints below if you need a little help.
