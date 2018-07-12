@@ -28,7 +28,7 @@ On the Raspberry Pi that is attached to the buggy, you will need to start the **
 sudo pigpiod
 ```
 
-If you want to **pigpio daemon** to automatically start at boot also run the following:
+If you want to the **pigpio daemon** to start automatically at boot also run the following:
 
 ```bash
 sudo systemctl enable pigpiod
