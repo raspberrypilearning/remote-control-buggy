@@ -37,7 +37,7 @@ sudo systemctl enable pigpiod
 
 --- task ---
 
-You can then find the Buggy's IP address using this line of code:
+You can then find the buggy's IP address using this line of code:
 
 ```bash
 hostname -I
@@ -45,7 +45,7 @@ hostname -I
 
 ![hostname](images/hostname_annotated.png)
 
-Which you will need later to connect.
+Which you will need later to connect to your buggy.
 
 --- /task ---
 
@@ -54,7 +54,13 @@ If you haven't used remotely controlled GPIO pins, or programmed using buttons b
 [[[rpi-python-function-calls-with-buttons]]]
 [[[rpi-python-remote-pins]]]
 
-Now you can begin to program the Raspberry Pi that is connected to the breadboard controller. Open up Python 3 IDLE.
+Now you can begin to program the Raspberry Pi that is connected to the breadboard controller. 
+
+--- task ---
+
+Open up Python 3 IDLE and create a new program. 
+
+--- /task ---
 
 --- task ---
 
@@ -75,6 +81,8 @@ left = Button(21)
 
 --- /task ---
 
+--- task ---
+
 For the rest of your project you need to add code to your script to drive the robot in the right direction when a specific button is pushed, and stop the robot when the button is released. Have a look at the hints below if you need a little help.
 
 --- hints --- --- hint ---
@@ -93,3 +101,5 @@ If your browser does not support WebM video, try Firefox or Chrome.
 </video>
 
 --- /hint --- --- /hints ---
+
+--- /task ---
