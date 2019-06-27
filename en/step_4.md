@@ -46,7 +46,7 @@ factory = PiGPIOFactory(host="192.168.1.79")
 ```python
 robot = Robot(left=(7, 8), right=(9, 10), pin_factory=factory))
 ```
---- task ---
+--- /task ---
 ### Creating a voice command
 
 --- task ---
