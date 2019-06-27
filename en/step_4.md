@@ -4,7 +4,7 @@
 For this part of the project, you will need a Google AIY Projects Voice Kit and a second Raspberry Pi as well as your buggy.
 
 ### Instructions
-You can use a second Raspberry Pi running the Google AIY Projects Voice Kit software to remotely control your Raspberry Pi buggy. This section assumes you have both a [built buggy](../projects/build-a-buggy), and that you have an assembled [AIY Projects  Voice Kit](../projects/rpi-python-google-aiy).
+You can use a second Raspberry Pi running the Google AIY Projects Voice Kit software to remotely control your Raspberry Pi buggy. This section assumes you have both a [built buggy](../projects/build-a-buggy), and that you have an assembled [AIY Projects  Voice Kit](../projects/rpi-aiy-voice-assemble).
 
 To control the buggy, you can use a feature in the `gpiozero` module called **remote pins**. Have a look at the section below to learn more about how to remotely use GPIO pins.
 
