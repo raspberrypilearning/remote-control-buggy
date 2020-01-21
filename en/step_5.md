@@ -58,7 +58,7 @@ Now you can begin to program the Raspberry Pi that is connected to the breadboar
 
 --- task ---
 
-Open up Python 3 IDLE and create a new program. 
+Open up **mu** from the **Programming** menu. 
 
 --- /task ---
 

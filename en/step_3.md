@@ -27,7 +27,7 @@ Have a look at the section below to learn the basics of using the Blue Dot app w
 To remotely control your buggy, here's what you will need to do:
 
 --- task ---
-Open up Python 3 IDLE and create a new file.
+Open up **mu** from the **Programming** menu.
 --- /task ---
 
 --- task ---
