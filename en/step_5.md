@@ -4,8 +4,8 @@
 For this stage, you will need a second Raspberry Pi and the following hardware as well as your buggy.
 - 1 × solderless breadboard
 - 4 × tactile buttons
-- 5 × male-to-female jumper leads
-- 4 × male-to-male jumper leads 
+- 5 × pin-to-socket jumper leads
+- 4 × pin-to-pin jumper leads 
 
 ### Instructions
 
